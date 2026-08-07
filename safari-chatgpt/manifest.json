@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Safari ChatGPT",
+  "version": "1.0.0",
+  "description": "Chat with OpenAI directly from Safari.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ChatGPT"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.openai.com/*"]
+}
